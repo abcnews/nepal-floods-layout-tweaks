@@ -12,3 +12,7 @@
     display: none;
   }
 }
+
+:global(#content > p + .u-pull-right) {
+  margin-top: calc(var(--od-space-component-margin) - var(--od-space-paragraph-margin));
+}
