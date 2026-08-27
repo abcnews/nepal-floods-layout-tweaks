@@ -1,6 +1,6 @@
 :global(#content > .u-pull-right) {
-  margin-top: calc(var(--od-space-component-margin) - var(--od-space-paragraph-margin));
-  max-width: clamp(160px, 40%, 240px);
+  margin-top: 0;
+  max-width: clamp(160px, 40%, 220px);
   margin-right: 10px !important;
   float: right;
   figure {
